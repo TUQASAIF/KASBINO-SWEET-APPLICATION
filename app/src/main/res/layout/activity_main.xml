@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="819dp"
+        android:scrollbarSize="4dp"
+        android:src="@drawable/k"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/Bcontact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="266dp"
+        android:layout_marginBottom="697dp"
+        android:backgroundTint="#DC90A5"
+        android:text="CONTACT US"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Blog"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="262dp"
+        android:layout_marginBottom="803dp"
+        android:backgroundTint="#DC90A5"
+        android:text="LOGOUT"
+        android:textStyle="bold"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+    <Button
+        android:id="@+id/Bin"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="209dp"
+        android:backgroundTint="#DC90A5"
+        android:text="LOGIN"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/orderb"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="622dp"
+        android:layout_marginTop="622dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="120dp"
+        android:backgroundTint="@color/bink"
+        android:text="ORDER"
+        android:textStyle="bold" />
+</RelativeLayout>

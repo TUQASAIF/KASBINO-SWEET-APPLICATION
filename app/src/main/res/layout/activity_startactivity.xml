@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".startactivity">
+
+
+    <Button
+        android:id="@+id/Bred"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-25dp"
+        android:layout_marginBottom="319dp"
+        android:backgroundTint="@color/bink"
+        android:text="READ"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/Bbackk"
+        android:layout_width="197dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-37dp"
+        android:layout_marginBottom="823dp"
+        android:backgroundTint="@color/bink"
+        android:text="HOME PAGE"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/Bdelete"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-30dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="@color/bink"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:text="DELETE"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/Bsbmit"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="18dp"
+        android:backgroundTint="@color/bink"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:text="SUBMIT"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/sc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="617dp"
+        android:ems="10"
+        android:hint="ENTER SWEET CODE"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="@color/bink"
+        android:textColorHint="@color/bink"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/pn"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="502dp"
+        android:ems="10"
+        android:hint="ENTER YOUR PHONE NUMBER"
+        android:minHeight="48dp"
+        android:textColor="@color/bink"
+        android:textColorHint="@color/bink"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="674dp"
+        android:ems="10"
+        android:hint="ENTER YOUR FALL NAME"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="@color/bink"
+        android:textColorHint="@color/bink"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/sn"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="561dp"
+        android:ems="10"
+        android:hint="ENTER NUMBER  OF SWEET"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColor="@color/bink"
+        android:textColorHint="@color/bink"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sp"
+        android:layout_width="261dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="456dp"
+        android:hint="EACH SWEETS PRICE = 1.500 OMR"
+        android:textColorHint="@color/bink"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/p"
+        android:layout_width="151dp"
+        android:layout_height="103dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="231dp"
+        android:layout_marginBottom="181dp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/BPrice"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-20dp"
+        android:layout_marginBottom="378dp"
+        android:backgroundTint="@color/bink"
+        android:text="CALCULATE"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/BC"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-23dp"
+        android:layout_marginBottom="202dp"
+        android:backgroundTint="@color/bink"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:text="CLEAR"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/BU"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-30dp"
+        android:layout_marginBottom="263dp"
+        android:backgroundTint="@color/bink"
+        android:text="UPDATE"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="15sp"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+    <Button
+        android:id="@+id/Bmenu"
+        android:layout_width="247dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-39dp"
+        android:layout_marginBottom="752dp"
+        android:backgroundTint="@color/bink"
+        android:text="KASBINO SWEET MENU"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/BV"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-19dp"
+        android:layout_marginBottom="139dp"
+        android:backgroundTint="@color/bink"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:text="VIEW"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="193dp"
+        android:layout_height="160dp"
+        android:src="@drawable/k" />
+
+</RelativeLayout>

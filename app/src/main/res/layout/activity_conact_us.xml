@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DC90A5"
+    android:orientation="vertical"
+    tools:context=".ConactUs">
+
+
+    <Button
+        android:id="@+id/Bckk"
+        android:layout_width="197dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-36dp"
+        android:layout_marginBottom="719dp"
+        android:backgroundTint="@color/white"
+        android:text="HOME PAGE"
+        android:textColor="@color/bink"
+        android:textColorHint="@color/bink"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvC"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:gravity="right"
+        android:text=" CONTACT US"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tVw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvC"
+        android:layout_marginTop="269dp"
+        android:gravity="center"
+        android:text="WHATSAPP : + 968 94015977"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvP"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_below="@id/tVw"
+        android:layout_marginTop="119dp"
+        android:gravity="center"
+        android:text="PHONE NUMBER : + 968 94015977"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvI"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_below="@id/tvP"
+        android:layout_marginTop="84dp"
+        android:gravity="center"
+        android:text="INSTAGRAM : KASBINO.7"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="169dp"
+        android:layout_height="147dp"
+        android:src="@drawable/ss" />
+
+</RelativeLayout>

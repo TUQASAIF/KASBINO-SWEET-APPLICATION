@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    android:gravity="center"
+    tools:context=".loginActivity">
+
+
+
+<EditText
+    android:id="@+id/usen"
+    android:layout_width="378dp"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="USER NAME"
+    android:inputType="text"
+    android:textColor="@color/bink"
+    android:textColorHint="@color/bink"
+    android:textSize="20sp" />
+
+<EditText
+android:id="@+id/wordp"
+android:layout_width="381dp"
+android:layout_height="wrap_content"
+android:ems="10"
+android:hint="PASSWORD"
+android:inputType="text"
+android:textColor="@color/bink"
+android:textColorHint="@color/bink"
+android:textSize="20sp" />
+
+<Button
+android:id="@+id/inlog"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:textSize="20dp"
+android:backgroundTint="@color/bink"
+android:text="LOGIN"
+    />
+
+<Button
+android:id="@+id/inreg"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:textSize="20dp"
+android:backgroundTint="@color/bink"
+android:text="REGISTER"/>
+
+<ImageView
+android:id="@+id/imageView2"
+android:layout_width="392dp"
+android:layout_height="327dp"
+android:scrollbarSize="4dp"
+android:src="@drawable/k"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/cakk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:backgroundTint="@color/bink"
+        android:text="HOME PAGE" />
+
+
+</LinearLayout>
